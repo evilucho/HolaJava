@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package holajava;
 
-/**
- *
- * @author evil5
- */
-public class HolaJava {
+import java.io.BufferedReader;
+import java.util.Scanner;
 
-    /**
-     * @param args the command line arguments
-     */
+public class HolaJava {
+    
+    
     public static void main(String[] args) {
+        String nombre;
+        Scanner lee = new Scanner(System.in);
         //hacemos una modificación
+        //relizamos entonces una mejora del sludo.
+        System.out.println("Ingresa tu nombre...\n");
+        nombre =lee.nextLine();
         System.out.println("Hola Java");
     }
     
